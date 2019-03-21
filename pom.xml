@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.cldt.common</groupId>
+    <artifactId>cldt-common</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>cldt-common-base</module>
+        <module>cldt-common-util</module>
+        <module>cldt-common-config</module>
+        <module>cldt-common-zk</module>
+        <module>cldt-common-core</module>
+    </modules>
+    <properties>
+      <!-- Generic properties -->
+      <java.version>1.8</java.version>
+      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+      <!-- CLDT -->
+      <cldt.common.version>0.0.1-SNAPSHOT</cldt.common.version>
+      <!-- lombok -->
+      <lombok.version>1.16.14</lombok.version>
+      <!-- io.springfox -->
+      <io.springfox.version>2.6.1</io.springfox.version>
+      <!-- google.guava -->
+      <google.guava.version>19.0</google.guava.version>
+      <!-- springframework -->
+      <springframework.boot.version>1.5.6.RELEASE</springframework.boot.version>
+      <springframework.cloud.version>1.4.0.RELEASE</springframework.cloud.version>
+      <!-- mybatis -->
+      <tk.mybatis.version>3.4.0</tk.mybatis.version>
+      <org.mybatis.version>3.4.2</org.mybatis.version>
+      <!-- aspectj -->
+      <aspectj.version>1.8.10</aspectj.version>
+      <!-- eu.bitwalker -->
+      <eu.bitwalker.version>1.20</eu.bitwalker.version>
+      <!-- apache -->
+      <apache.rocketmq.version>4.1.0-incubating</apache.rocketmq.version>
+      <apache.curator.version>2.10.0</apache.curator.version>
+      <!-- json -->
+      <org.json.version>20140107</org.json.version>
+      <fasterxml.jackson.version>2.8.10</fasterxml.jackson.version>
+      <alibaba.fastjson.version>1.2.29</alibaba.fastjson.version>
+      <!-- jsonwebtoken -->
+      <jsonwebtoken.version>0.7.0</jsonwebtoken.version>
+      <!-- arronlong.httpclientutil -->
+      <arronlong.httpclientutil.version>1.0</arronlong.httpclientutil.version>
+      <!-- commons -->
+      <commons.lang3.version>3.5</commons.lang3.version>
+      <commons-codec.version>1.10</commons-codec.version>
+      <commons-beanutils.version>1.9.3</commons-beanutils.version>
+      <!-- logback-classic -->
+      <logback-classic.version>1.1.11</logback-classic.version>
+      <!-- codehaus.jackson -->
+      <codehaus.jackson.version>1.9.13</codehaus.jackson.version>
+      <!-- xiaoleilu hutool-all -->
+      <xiaoleilu.hutool-all.version>3.0.7</xiaoleilu.hutool-all.version>
+    </properties>
+
+    <dependencies>
+      <dependency>
+          <groupId>org.projectlombok</groupId>
+          <artifactId>lombok</artifactId>
+          <version>${lombok.version}</version>
+      </dependency>
+    </dependencies>
+    <!-- 项目发布管理 -->
+    <distributionManagement>
+      <repository>
+        <id>releases</id>
+        <name>User Project Release</name>
+        <url>http://119.23.48.142:8090/nexus/content/repositories/releases/</url>
+      </repository>
+
+      <snapshotRepository>
+        <id>snapshots</id>
+        <name>User Project SNAPSHOTS</name>
+        <url>http://119.23.48.142:8090/nexus/content/repositories/snapshots/</url>
+      </snapshotRepository>
+    </distributionManagement>
+</project>
