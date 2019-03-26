@@ -12,6 +12,9 @@
         <module>cldt-common-config</module>
         <module>cldt-common-zk</module>
         <module>cldt-common-core</module>
+		<module>cldt-security-app</module>
+		<module>cldt-security-core</module>
+		<module>cldt-security-feign</module>
     </modules>
     <properties>
       <!-- Generic properties -->

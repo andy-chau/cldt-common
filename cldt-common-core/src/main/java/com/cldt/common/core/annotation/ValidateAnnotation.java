@@ -5,7 +5,7 @@ import java.lang.annotation.*;
 /**
  * The interface Validate annotation.
  *
- * @author paascloud.net@gmail.com
+ * @author cldt@gmail.com
  */
 @Target({ElementType.PARAMETER, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)

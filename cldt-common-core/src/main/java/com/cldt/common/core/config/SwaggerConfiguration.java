@@ -22,7 +22,7 @@ import com.cldt.config.properties.SwaggerProperties;
 /**
  * The class Swagger configuration.
  *
- * @author paascloud.net@gmail.com
+ * @author cldt@gmail.com
  */
 @EnableSwagger2
 @EnableConfigurationProperties(CldtProperties.class)
