@@ -3,7 +3,7 @@
 
  * 类名称：QQServiceProvider.java
 
- * 联系方式：cldt@gmail.com
+ * 联系方式：cldt
 
  * 博客地址: http://blog.cldt
  * 项目官网: http://cldt
@@ -20,7 +20,7 @@ import com.cldt.security.core.social.qq.api.QQImpl;
 /**
  * The class Qq service provider.
  *
- * @author cldt@gmail.com
+ * @author cldt
  */
 public class QQServiceProvider extends AbstractOAuth2ServiceProvider<QQ> {
 

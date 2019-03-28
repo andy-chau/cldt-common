@@ -20,7 +20,7 @@ import com.cldt.config.properties.CldtProperties;
 /**
  * The class Redis configuration.
  *
- * @author cldt@gmail.com
+ * @author cldt
  */
 @Configuration
 @EnableCaching

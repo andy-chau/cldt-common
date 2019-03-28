@@ -8,7 +8,7 @@ import java.lang.annotation.*;
 /**
  * 操作日志.
  *
- * @author cldt@gmail.com
+ * @author cldt
  */
 @Target({ElementType.PARAMETER, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)

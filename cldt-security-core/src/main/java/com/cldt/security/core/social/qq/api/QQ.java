@@ -3,7 +3,7 @@
 
  * 类名称：QQ.java
 
- * 联系方式：cldt@gmail.com
+ * 联系方式：cldt
 
  * 博客地址: http://blog.cldt
  * 项目官网: http://cldt
@@ -15,7 +15,7 @@ package com.cldt.security.core.social.qq.api;
 /**
  * The interface Qq.
  *
- * @author cldt@gmail.com
+ * @author cldt
  */
 public interface QQ {
 

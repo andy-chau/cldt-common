@@ -3,7 +3,7 @@
 
  * 类名称：SecurityProperties.java
 
- * 联系方式：cldt@gmail.com
+ * 联系方式：cldt
 
  * 博客地址: http://blog.cldt
  * 项目官网: http://cldt
@@ -17,7 +17,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 /**
  * The class Security properties.
  *
- * @author cldt@gmail.com
+ * @author cldt
  */
 @ConfigurationProperties(prefix = "paascloud.security")
 public class SecurityProperties {

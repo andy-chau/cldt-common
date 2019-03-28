@@ -3,7 +3,7 @@
 
  * 类名称：OpenIdAuthenticationSecurityConfig.java
 
- * 联系方式：cldt@gmail.com
+ * 联系方式：cldt
 
  * 博客地址: http://blog.cldt
  * 项目官网: http://cldt
@@ -27,7 +27,7 @@ import org.springframework.stereotype.Component;
 /**
  * The class Open id authentication security config.
  *
- * @author cldt@gmail.com
+ * @author cldt
  */
 @Component
 public class OpenIdAuthenticationSecurityConfig extends SecurityConfigurerAdapter<DefaultSecurityFilterChain, HttpSecurity> {

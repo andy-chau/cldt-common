@@ -4,7 +4,7 @@
 
  * 类名称：QQOAuth2Template.java
 
- * 联系方式：cldt@gmail.com
+ * 联系方式：cldt
 
  * 博客地址: http://blog.cldt
  * 项目官网: http://cldt
@@ -25,7 +25,7 @@ import java.nio.charset.Charset;
 /**
  * The class Qqo auth 2 template.
  *
- * @author cldt@gmail.com
+ * @author cldt
  */
 @Slf4j
 public class QQOAuth2Template extends OAuth2Template {

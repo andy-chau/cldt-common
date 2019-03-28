@@ -4,7 +4,7 @@
 
  * 类名称：DefaultEmailCodeSender.java
 
- * 联系方式：cldt@gmail.com
+ * 联系方式：cldt
 
  * 博客地址: http://blog.cldt
  * 项目官网: http://cldt

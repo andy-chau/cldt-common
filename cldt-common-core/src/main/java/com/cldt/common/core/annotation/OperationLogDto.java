@@ -9,7 +9,7 @@ import java.util.Date;
 /**
  * The class Operation log dto.
  *
- * @author cldt@gmail.com
+ * @author cldt
  */
 @Data
 public class OperationLogDto implements Serializable {

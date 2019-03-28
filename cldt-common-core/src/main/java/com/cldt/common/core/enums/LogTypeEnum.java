@@ -10,7 +10,7 @@ import com.google.common.collect.Maps;
 /**
  * The enum Log type enum.
  *
- * @author cldt@gmail.com
+ * @author cldt
  */
 public enum LogTypeEnum {
 	/**

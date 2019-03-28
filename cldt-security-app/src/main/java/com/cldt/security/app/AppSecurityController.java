@@ -3,7 +3,7 @@
 
  * 类名称：AppSecurityController.java
 
- * 联系方式：cldt@gmail.com
+ * 联系方式：cldt
 
  * 博客地址: http://blog.cldt
  * 项目官网: http://cldt
@@ -29,7 +29,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * The class App security controller.
  *
- * @author cldt@gmail.comg
+ * @author cldtg
  */
 @RestController
 public class AppSecurityController extends BaseSocialController {

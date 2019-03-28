@@ -3,7 +3,7 @@
 
  * 类名称：EmailCodeSender.java
 
- * 联系方式：cldt@gmail.com
+ * 联系方式：cldt
 
  * 博客地址: http://blog.cldt
  * 项目官网: http://cldt
@@ -14,7 +14,7 @@ package com.cldt.security.core.validate.code.email;
 /**
  * The interface Sms code sender.
  *
- * @author cldt@gmail.com
+ * @author cldt
  */
 public interface EmailCodeSender {
 

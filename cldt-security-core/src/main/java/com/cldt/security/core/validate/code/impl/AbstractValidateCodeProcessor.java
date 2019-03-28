@@ -3,7 +3,7 @@
 
  * 类名称：AbstractValidateCodeProcessor.java
 
- * 联系方式：cldt@gmail.com
+ * 联系方式：cldt
 
  * 博客地址: http://blog.cldt
  * 项目官网: http://cldt
@@ -23,7 +23,7 @@ import java.util.Map;
 /**
  * 抽象的图片验证码处理器
  *
- * @param <C> the type parameter @author cldt@gmail.com
+ * @param <C> the type parameter @author cldt
  *
  * @author cldt @gmail.com
  */

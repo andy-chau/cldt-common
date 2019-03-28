@@ -3,7 +3,7 @@ package com.cldt.security.core.validate.code.sms;
 /**
  * The interface Sms code sender.
  *
- * @author cldt@gmail.com
+ * @author cldt
  */
 public interface SmsCodeSender {
 

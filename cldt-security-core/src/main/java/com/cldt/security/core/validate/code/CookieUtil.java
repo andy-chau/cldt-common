@@ -16,7 +16,7 @@ import java.net.URLEncoder;
 /**
  * The class Cookie util.
  *
- * @author cldt@gmail.com
+ * @author cldt
  */
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class CookieUtil {

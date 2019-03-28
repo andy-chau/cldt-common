@@ -4,7 +4,7 @@
 
  * 类名称：QQUserInfo.java
 
- * 联系方式：cldt@gmail.com
+ * 联系方式：cldt
 
  * 博客地址: http://blog.cldt
  * 项目官网: http://cldt
@@ -21,7 +21,7 @@ import java.io.Serializable;
 /**
  * The class Qq user info.
  *
- * @author cldt@gmail.com
+ * @author cldt
  */
 @Data
 public class QQUserInfo implements Serializable {

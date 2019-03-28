@@ -4,7 +4,7 @@
 
  * 类名称：QQAutoConfig.java
 
- * 联系方式：cldt@gmail.com
+ * 联系方式：cldt
 
  * 博客地址: http://blog.cldt
  * 项目官网: http://cldt
@@ -26,7 +26,7 @@ import com.cldt.security.core.properties.SecurityProperties;
 /**
  * The class Qq auto config.
  *
- * @author cldt@gmail.com
+ * @author cldt
  */
 @Configuration
 @ConditionalOnProperty(prefix = "paascloud.security.social.qq", name = "app-id")

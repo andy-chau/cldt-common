@@ -3,7 +3,7 @@ package com.cldt.security.core.properties;
 /**
  * The interface Security constants.
  *
- * @author cldt@gmail.com
+ * @author cldt
  */
 public interface SecurityConstants {
 
