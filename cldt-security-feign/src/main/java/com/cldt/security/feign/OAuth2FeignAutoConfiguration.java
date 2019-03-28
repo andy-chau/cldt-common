@@ -1,10 +1,10 @@
 /*
  * Copyright (c) 2018. cldt All Rights Reserved.
- * 项目名称：paascloud快速搭建企业级分布式微服务平台
+
  * 类名称：OAuth2FeignAutoConfiguration.java
- * 创建人：刘兆明
+
  * 联系方式：cldt@gmail.com
- * 开源地址: https://github.com/paascloud
+
  * 博客地址: http://blog.cldt
  * 项目官网: http://cldt
  */
@@ -51,7 +51,7 @@ public class OAuth2FeignAutoConfiguration {
 	 *
 	 * @return the client credentials resource details
 	 */
-	@Bean("paascloudClientCredentialsResourceDetails")
+	@Bean("cldtClientCredentialsResourceDetails")
 	public ClientCredentialsResourceDetails resourceDetails() {
 		ClientCredentialsResourceDetails details = new ClientCredentialsResourceDetails();
 		details.setId(oauth2ClientProperties.getId());
@@ -67,7 +67,7 @@ public class OAuth2FeignAutoConfiguration {
 	 *
 	 * @return the o auth 2 rest template
 	 */
-	@Bean("paascloudOAuth2RestTemplate")
+	@Bean("cldtOAuth2RestTemplate")
 	public OAuth2RestTemplate oAuth2RestTemplate() {
 		final OAuth2RestTemplate oAuth2RestTemplate = new OAuth2RestTemplate(resourceDetails(), new DefaultOAuth2ClientContext());
 		oAuth2RestTemplate.setRequestFactory(new Netty4ClientHttpRequestFactory());
@@ -83,7 +83,7 @@ public class OAuth2FeignAutoConfiguration {
 	 * @return the request interceptor
 	 */
 	@Bean
-	public RequestInterceptor oauth2FeignRequestInterceptor(@Qualifier("paascloudOAuth2RestTemplate") OAuth2RestTemplate oAuth2RestTemplate) {
+	public RequestInterceptor oauth2FeignRequestInterceptor(@Qualifier("cldtOAuth2RestTemplate") OAuth2RestTemplate oAuth2RestTemplate) {
 		return new OAuth2FeignRequestInterceptor(oAuth2RestTemplate);
 	}
 

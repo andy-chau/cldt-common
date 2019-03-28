@@ -50,21 +50,21 @@ public final class RegistryCenterFactory {
 	/**
 	 * Startup.
 	 *
-	 * @param paascloudProperties the paascloud properties
+	 * @param cldtProperties the paascloud properties
 	 * @param host                the host
 	 * @param app                 the app
 	 */
-	public static void startup(CldtProperties paascloudProperties, String host, String app) {
-		CoordinatorRegistryCenter coordinatorRegistryCenter = createCoordinatorRegistryCenter(paascloudProperties.getZk());
+	public static void startup(CldtProperties cldtProperties, String host, String app) {
+		CoordinatorRegistryCenter coordinatorRegistryCenter = createCoordinatorRegistryCenter(cldtProperties.getZk());
 		RegisterDto dto = new RegisterDto(app, host, coordinatorRegistryCenter);
 		Long serviceId = new IncrementIdGenerator(dto).nextId();
 		IncrementIdGenerator.setServiceId(serviceId);
-		registerMq(paascloudProperties, host, app);
+		registerMq(cldtProperties, host, app);
 	}
 
-	private static void registerMq(CldtProperties paascloudProperties, String host, String app) {
-		CoordinatorRegistryCenter coordinatorRegistryCenter = createCoordinatorRegistryCenter(paascloudProperties.getZk());
-		AliyunProperties.RocketMqProperties rocketMq = paascloudProperties.getAliyun().getRocketMq();
+	private static void registerMq(CldtProperties cldtProperties, String host, String app) {
+		CoordinatorRegistryCenter coordinatorRegistryCenter = createCoordinatorRegistryCenter(cldtProperties.getZk());
+		AliyunProperties.RocketMqProperties rocketMq = cldtProperties.getAliyun().getRocketMq();
 		String consumerGroup = rocketMq.isReliableMessageConsumer() ? rocketMq.getConsumerGroup() : null;
 		String namesrvAddr = rocketMq.getNamesrvAddr();
 		String producerGroup = rocketMq.isReliableMessageProducer() ? rocketMq.getProducerGroup() : null;

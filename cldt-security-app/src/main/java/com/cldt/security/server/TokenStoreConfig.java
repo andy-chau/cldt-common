@@ -1,10 +1,10 @@
  /*
   * Copyright (c) 2018. cldt All Rights Reserved.
-  * 项目名称：paascloud快速搭建企业级分布式微服务平台
+ 
   * 类名称：TokenStoreConfig.java
-  * 创建人：刘兆明
+ 
   * 联系方式：cldt@gmail.com
-  * 开源地址: https://github.com/paascloud
+ 
   * 博客地址: http://blog.cldt
   * 项目官网: http://cldt
   */
@@ -38,7 +38,7 @@ public class TokenStoreConfig {
 	 * 使用redis存储token的配置，只有在paascloud.security.oauth2.tokenStore配置为redis时生效
 	 */
 	@Configuration
-	@ConditionalOnProperty(prefix = "paascloud.security.oauth2", name = "tokenStore", havingValue = "redis")
+	@ConditionalOnProperty(prefix = "cldt.security.oauth2", name = "tokenStore", havingValue = "redis")
 	public static class RedisConfig {
 
 		@Autowired
@@ -62,7 +62,7 @@ public class TokenStoreConfig {
 	 * @author cldt @gmail.com
 	 */
 	@Configuration
-	@ConditionalOnProperty(prefix = "paascloud.security.oauth2", name = "tokenStore", havingValue = "jwt", matchIfMissing = true)
+	@ConditionalOnProperty(prefix = "cldt.security.oauth2", name = "tokenStore", havingValue = "jwt", matchIfMissing = true)
 	public static class JwtConfig {
 
 		@Autowired

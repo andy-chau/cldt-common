@@ -28,7 +28,7 @@ import com.cldt.config.properties.SwaggerProperties;
 @EnableConfigurationProperties(CldtProperties.class)
 public class SwaggerConfiguration {
 	@Resource
-	private CldtProperties guandianbaoProperties;
+	private CldtProperties cldtProperties;
 
 	/**
 	 * Reservation api docket.
@@ -38,7 +38,7 @@ public class SwaggerConfiguration {
 	@Bean
 	public Docket createRestApi() {
 		return new Docket(DocumentationType.SWAGGER_2)
-		        .enable(guandianbaoProperties.getSwagger().isSwaggerShow())
+		        .enable(cldtProperties.getSwagger().isSwaggerShow())
 				.apiInfo(apiInfo())
 				.select()
 				.apis(RequestHandlerSelectors.withMethodAnnotation(ApiOperation.class))
@@ -47,7 +47,7 @@ public class SwaggerConfiguration {
 	}
 
 	private ApiInfo apiInfo() {
-		SwaggerProperties swagger = guandianbaoProperties.getSwagger();
+		SwaggerProperties swagger = cldtProperties.getSwagger();
 		return new ApiInfoBuilder()
 				.title(swagger.getTitle())
 				.description(swagger.getDescription())

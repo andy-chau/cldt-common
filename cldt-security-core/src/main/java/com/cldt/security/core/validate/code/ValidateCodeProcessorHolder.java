@@ -1,10 +1,10 @@
 /*
  * Copyright (c) 2018. cldt All Rights Reserved.
- * 项目名称：paascloud快速搭建企业级分布式微服务平台
+
  * 类名称：ValidateCodeProcessorHolder.java
- * 创建人：刘兆明
+
  * 联系方式：cldt@gmail.com
- * 开源地址: https://github.com/paascloud
+
  * 博客地址: http://blog.cldt
  * 项目官网: http://cldt
  */
@@ -24,17 +24,17 @@ import java.util.Map;
 @Component
 public class ValidateCodeProcessorHolder {
 
-	private final Map<String, ValidateCodeProcessor> validateCodeProcessors;
+	private Map<String, ValidateCodeProcessor> validateCodeProcessors;
 
 	/**
 	 * Instantiates a new Validate code processor holder.
 	 *
 	 * @param validateCodeProcessors the validate code processors
 	 */
-	@Autowired
-	public ValidateCodeProcessorHolder(Map<String, ValidateCodeProcessor> validateCodeProcessors) {
-		this.validateCodeProcessors = validateCodeProcessors;
-	}
+//	@Autowired
+//	public ValidateCodeProcessorHolder(Map<String, ValidateCodeProcessor> validateCodeProcessors) {
+//		this.validateCodeProcessors = validateCodeProcessors;
+//	}
 
 	/**
 	 * Find validate code processor validate code processor.

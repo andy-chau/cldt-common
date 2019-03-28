@@ -27,7 +27,7 @@ public class BindingResultAop {
 	/**
 	 * Validate annotation.
 	 */
-	@Pointcut("@annotation(com.guandianbao.oauth2.common.annotation.ValidateAnnotation)")
+	@Pointcut("@annotation(com.cldt.common.core.annotation.ValidateAnnotation)")
 	public void validateAnnotation() {
 	}
 

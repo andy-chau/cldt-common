@@ -26,7 +26,7 @@ import com.cldt.zk.registry.RegistryCenterFactory;
 @EnableConfigurationProperties(CldtProperties.class)
 public class ZookeeperInitRunner implements CommandLineRunner {
 	@Resource
-	private CldtProperties guandianbaoProperties;
+	private CldtProperties cldtProperties;
 	@Value("${spring.application.name}")
 	private String applicationName;
 
@@ -41,7 +41,7 @@ public class ZookeeperInitRunner implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		String hostAddress = InetAddress.getLocalHost().getHostAddress();
 		log.info("###ZookeeperInitRunner，init. HostAddress={}, applicationName={}", hostAddress, applicationName);
-		RegistryCenterFactory.startup(guandianbaoProperties, hostAddress, applicationName);
+		RegistryCenterFactory.startup(cldtProperties, hostAddress, applicationName);
 		log.info("###ZookeeperInitRunner，finish<<<<<<<<<<<<<");
 	}
 
