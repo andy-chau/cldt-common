@@ -18,7 +18,7 @@ import org.springframework.boot.autoconfigure.social.SocialProperties;
 /**
  * 微信登录配置项
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 @EqualsAndHashCode(callSuper = true)
 @Data

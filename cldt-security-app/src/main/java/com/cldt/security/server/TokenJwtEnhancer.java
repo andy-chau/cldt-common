@@ -25,7 +25,7 @@ import java.util.Map;
 /**
  * The class Token jwt enhancer.
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 public class TokenJwtEnhancer implements TokenEnhancer {
 

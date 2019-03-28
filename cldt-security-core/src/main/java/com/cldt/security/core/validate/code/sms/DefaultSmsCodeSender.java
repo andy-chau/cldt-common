@@ -6,7 +6,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 默认的短信验证码发送器
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 @Slf4j
 public class DefaultSmsCodeSender implements SmsCodeSender {

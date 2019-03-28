@@ -24,7 +24,7 @@ import com.cldt.security.core.social.weixin.api.Weixin;
 /**
  * 微信连接工厂
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 public class WeixinConnectionFactory extends OAuth2ConnectionFactory<Weixin> {
 

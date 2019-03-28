@@ -28,7 +28,7 @@ import com.cldt.security.core.social.view.PcConnectView;
 /**
  * 微信登录配置
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 @Configuration
 @ConditionalOnProperty(prefix = "paascloud.security.social.weixin", name = "app-id")

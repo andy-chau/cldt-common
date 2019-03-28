@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * 生成校验码的请求处理器
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 @Slf4j
 @RestController

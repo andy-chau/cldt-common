@@ -5,7 +5,7 @@ import com.cldt.security.core.properties.SecurityConstants;
 /**
  * 校验码类型
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 public enum ValidateCodeType {
 

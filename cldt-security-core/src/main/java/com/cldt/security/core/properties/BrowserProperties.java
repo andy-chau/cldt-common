@@ -16,7 +16,7 @@ import lombok.Data;
 /**
  * 浏览器环境配置项
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 @Data
 public class BrowserProperties {

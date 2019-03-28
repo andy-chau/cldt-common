@@ -16,7 +16,7 @@ import lombok.Data;
 /**
  * session管理相关配置项
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 @Data
 public class SessionProperties {

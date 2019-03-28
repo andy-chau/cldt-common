@@ -14,7 +14,7 @@ package com.cldt.security.app;
 /**
  * The class App secret exception.
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 public class AppSecretException extends RuntimeException {
 

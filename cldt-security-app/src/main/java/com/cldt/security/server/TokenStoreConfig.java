@@ -29,7 +29,7 @@ import com.cldt.security.core.properties.SecurityProperties;
 /**
  * The class Token store config.
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 @Configuration
 public class TokenStoreConfig {
@@ -59,7 +59,7 @@ public class TokenStoreConfig {
 	/**
 	 * 使用jwt时的配置，默认生效
 	 *
-	 * @author cldt @gmail.com
+	 * @author cldt
 	 */
 	@Configuration
 	@ConditionalOnProperty(prefix = "cldt.security.oauth2", name = "tokenStore", havingValue = "jwt", matchIfMissing = true)

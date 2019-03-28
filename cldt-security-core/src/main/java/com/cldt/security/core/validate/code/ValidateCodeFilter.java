@@ -24,7 +24,7 @@ import java.util.Set;
 /**
  * 校验验证码的过滤器
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 @Component("validateCodeFilter")
 public class ValidateCodeFilter extends OncePerRequestFilter implements InitializingBean {

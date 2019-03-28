@@ -33,7 +33,7 @@ import com.cldt.security.core.social.support.SocialAuthenticationFilterPostProce
 /**
  * 社交登录配置主类
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 @Configuration
 @EnableSocial

@@ -21,7 +21,7 @@ import java.awt.image.BufferedImage;
 /**
  * 默认的图片验证码生成器
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 public class ImageCodeGenerator implements ValidateCodeGenerator {
 

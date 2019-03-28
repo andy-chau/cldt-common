@@ -20,7 +20,7 @@ import java.util.Map;
 /**
  * 绑定结果视图
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 public class PcConnectView extends AbstractView {
 

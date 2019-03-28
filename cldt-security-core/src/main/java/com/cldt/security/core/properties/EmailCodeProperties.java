@@ -16,7 +16,7 @@ import lombok.Data;
 /**
  * The class Email code properties.
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 @Data
 public class EmailCodeProperties {

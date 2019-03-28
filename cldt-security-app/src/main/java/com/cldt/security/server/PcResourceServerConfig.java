@@ -37,7 +37,7 @@ import javax.sql.DataSource;
 /**
  * 资源服务器配置
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 @Configuration
 @EnableResourceServer

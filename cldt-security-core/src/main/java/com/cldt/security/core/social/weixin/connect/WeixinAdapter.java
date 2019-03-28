@@ -21,7 +21,7 @@ import com.cldt.security.core.social.weixin.api.Weixin;
 /**
  * 微信 api适配器，将微信 api的数据模型转为spring social的标准模型。
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 public class WeixinAdapter implements ApiAdapter<Weixin> {
 

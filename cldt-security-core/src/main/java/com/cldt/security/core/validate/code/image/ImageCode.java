@@ -20,7 +20,7 @@ import java.time.LocalDateTime;
 /**
  * 图片验证码
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 public class ImageCode extends ValidateCode {
 

@@ -14,7 +14,7 @@ package com.cldt.security.core.social.weixin.api;
 /**
  * 微信API调用接口
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 public interface Weixin {
 

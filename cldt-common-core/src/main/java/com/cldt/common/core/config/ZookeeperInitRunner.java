@@ -18,7 +18,7 @@ import com.cldt.zk.registry.RegistryCenterFactory;
 /**
  * The class Redis init runner.
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 @Component
 @Order

@@ -16,7 +16,7 @@ import lombok.Data;
 /**
  * 验证码配置
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 @Data
 public class ValidateCodeProperties {

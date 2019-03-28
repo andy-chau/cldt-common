@@ -3,7 +3,7 @@ package com.cldt.security.core.properties;
 /**
  * 认证成功后的响应方式
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 public enum LoginResponseType {
 

@@ -27,7 +27,7 @@ import java.util.Map;
 /**
  * 社交账号绑定状态视图
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 @Component("connect/status")
 public class PcConnectionStatusView extends AbstractView {

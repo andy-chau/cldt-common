@@ -26,7 +26,7 @@ import java.util.Map;
 /**
  * 短信验证码生成器
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 @Slf4j
 @Component("emailValidateCodeGenerator")

@@ -16,7 +16,7 @@ import org.springframework.web.context.request.ServletWebRequest;
 /**
  * 校验码存取器
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 public interface ValidateCodeRepository {
 

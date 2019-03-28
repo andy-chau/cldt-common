@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.social.SocialProperties;
 /**
  * QQ登录配置项
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 @EqualsAndHashCode(callSuper = true)
 @Data

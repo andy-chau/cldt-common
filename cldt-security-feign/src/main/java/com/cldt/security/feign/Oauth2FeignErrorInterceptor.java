@@ -27,7 +27,7 @@ import java.util.HashMap;
 /**
  * The class Feign error interceptor.
  *
- * @author cldt @gmail.com
+ * @author cldt
  */
 @Slf4j
 public class Oauth2FeignErrorInterceptor implements ErrorDecoder {
