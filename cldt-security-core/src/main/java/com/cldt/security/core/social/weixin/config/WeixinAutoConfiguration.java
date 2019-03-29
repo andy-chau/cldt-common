@@ -31,7 +31,7 @@ import com.cldt.security.core.social.view.PcConnectView;
  * @author cldt
  */
 @Configuration
-@ConditionalOnProperty(prefix = "paascloud.security.social.weixin", name = "app-id")
+@ConditionalOnProperty(prefix = "cldt.security.social.weixin", name = "app-id")
 public class WeixinAutoConfiguration extends SocialAutoConfigurerAdapter {
 
 	@Autowired

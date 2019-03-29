@@ -37,7 +37,7 @@ import java.util.*;
  * 2.SQL 执行时间超过 关注时间 noticeTime ,以error级别打印到控制台
  * 使用时需要把mybatis logger级别设置为 INFO级别
  *
- * @author paascloud.net @gmail.com
+ * @author cldt
  */
 @Intercepts({
 		@Signature(type = Executor.class, method = "update", args = {MappedStatement.class, Object.class}),

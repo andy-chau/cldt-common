@@ -29,7 +29,7 @@ import com.cldt.security.core.properties.SecurityProperties;
  * @author cldt
  */
 @Configuration
-@ConditionalOnProperty(prefix = "paascloud.security.social.qq", name = "app-id")
+@ConditionalOnProperty(prefix = "cldt.security.social.qq", name = "app-id")
 public class QQAutoConfig extends SocialAutoConfigurerAdapter {
 
 	private final SecurityProperties securityProperties;

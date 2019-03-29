@@ -50,7 +50,7 @@ public final class RegistryCenterFactory {
 	/**
 	 * Startup.
 	 *
-	 * @param cldtProperties the paascloud properties
+	 * @param cldtProperties the cldt properties
 	 * @param host                the host
 	 * @param app                 the app
 	 */

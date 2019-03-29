@@ -19,7 +19,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  *
  * @author cldt
  */
-@ConfigurationProperties(prefix = "paascloud.security")
+@ConfigurationProperties(prefix = "cldt.security")
 public class SecurityProperties {
 
 	/**

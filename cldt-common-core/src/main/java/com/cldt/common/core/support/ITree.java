@@ -22,7 +22,7 @@ import java.util.List;
  * @param <T>  the type parameter
  * @param <ID> the type parameter
  *
- * @author paascloud.net @gmail.com
+ * @author cldt
  */
 public interface ITree<T extends BaseTree<T, ID>, ID extends Serializable> {
 	/**

@@ -25,7 +25,7 @@ import java.util.Objects;
  * @param <T>  the type parameter
  * @param <ID> the type parameter
  *
- * @author paascloud.net @gmail.com
+ * @author cldt
  */
 public abstract class AbstractTreeService<T extends BaseTree<T, ID>, ID extends Serializable> implements ITree<T, ID> {
 

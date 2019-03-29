@@ -40,7 +40,7 @@ import java.lang.reflect.Method;
 /**
  * The class Token interceptor.
  *
- * @author paascloud.net @gmail.com
+ * @author cldt
  */
 @Slf4j
 @Component
